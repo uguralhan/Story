@@ -24,3 +24,7 @@ and if you want to publish on gitHub your docs you use git remote add "name of r
 (ex. git remote add oirign1 https://github.com/uguralhan/Story.git)
 
 then git push -u origin master (master is name of branch/default brach/main branch)
+
+when new brach added on gitHub, we use git branch alien-port(branch name up to you)
+if you wanna check how many branches you have type ( git branch)
+then when you want to switch branches we use (git checkout main or alien-plot(these are your branches name))
