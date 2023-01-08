@@ -16,3 +16,11 @@ From staging area to local repository we use ( git commit)
 From local repository to working directory we use (git checkout)
 
 So when you changed your file accidently, you can check file with (git diff "filename") then (git checkout "filename") take you back to previous version of your file.
+
+(git log) check your documents commits
+
+and if you want to publish on gitHub your docs you use git remote add "name of remote ex. origin" then gitHub address
+
+(ex. git remote add oirign1 https://github.com/uguralhan/Story.git)
+
+then git push -u origin master (master is name of branch/default brach/main branch)
