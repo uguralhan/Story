@@ -1,1 +1,18 @@
 it was the best of times, it was the worst of time.
+
+on git we used those command:
+git init
+ls -a
+git status
+git commit-m "Complete Chapter1"
+git log
+git add . (more than one files add in a short way)
+
+
+working directory to staging area we use (git add)
+
+From staging area to local repository we use ( git commit)
+
+From local repository to working directory we use (git checkout)
+
+So when you changed your file accidently, you can check file with (git diff "filename") then (git checkout "filename") take you back to previous version of your file.
